@@ -11,7 +11,7 @@ podman build --format docker \
 
 ### running
 ```
-podman run -v /Users:/Users -p 8888:8888 localhost/dunedaq_jupyter:dunedaq-v4.0.0
+podman run -v /Users:/Users -p 8888:8888 ghcr.io/wesketchum/dunedaq_jupyter:dunedaq-v4.0.0
 ```
 
 ### publishing
